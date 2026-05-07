@@ -1,6 +1,6 @@
 {
   "deploy": {
-    "startCommand": "python3 -m http.server $PORT",
+    "startCommand": "npm start",
     "restartPolicyType": "ON_FAILURE"
   }
 }
