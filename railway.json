@@ -1,9 +1,6 @@
 {
-  "build": {
-    "builder": "NIXPACKS"
-  },
   "deploy": {
-    "startCommand": "npx serve . -p $PORT --single",
+    "startCommand": "python3 -m http.server $PORT",
     "restartPolicyType": "ON_FAILURE"
   }
 }
